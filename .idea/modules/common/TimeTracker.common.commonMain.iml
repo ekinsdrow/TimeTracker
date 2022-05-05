@@ -183,5 +183,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.profileinstaller:profileinstaller:aar:1.1.0-beta02" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.startup:startup-runtime:aar:1.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.tracing:tracing:aar:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-graphics-desktop:1.0.0" level="project" />
   </component>
 </module>

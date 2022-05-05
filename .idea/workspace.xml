@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b0ab34-70c7-459d-adf2-fc686814974a" name="Changes" comment="" />
+    <list default="true" id="c9b0ab34-70c7-459d-adf2-fc686814974a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/ekinsdrow/common/core/charts/RoundedChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/ekinsdrow/common/features/main/ui/MainScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/common_desktop_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/common_desktop_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/desktop_jvm_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/desktop_jvm_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/TimeTracker.common.desktopTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/TimeTracker.common.desktopTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/TimeTracker.desktop.jvmMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/desktop/TimeTracker.desktop.jvmMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/TimeTracker.desktop.jvmTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/desktop/TimeTracker.desktop.jvmTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/ekinsdrow/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/ekinsdrow/android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/ekinsdrow/common/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/ekinsdrow/common/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +33,35 @@
         <task path="$PROJECT_DIR$/desktop">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TimeTracker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31">
     <allAvailableExecutables />
@@ -32,6 +70,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28kXMmeouoZDwBwdmlhQpqoD74h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,9 +82,10 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Gradle.Desktop">
@@ -144,5 +184,17 @@
       <updated>1651761515378</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
