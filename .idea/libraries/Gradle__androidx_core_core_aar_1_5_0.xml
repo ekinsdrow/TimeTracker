@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:aar:1.5.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.5.0/592da26c6f1263a51134546204033e0964e3c540/core-1.5.0.aar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.5.0/b59df19e06f42e39b6d6ee97b2a1e42fd7c88204/core-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
