@@ -5,11 +5,11 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
-import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
@@ -17,6 +17,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.ekinsdrow.common.core.charts.RoundedChart
 import com.ekinsdrow.common.core.ui.Screen
+import com.ekinsdrow.common.features.main.ui.components.Categories
+
 
 @Composable
 fun MainScreen() {
@@ -27,20 +29,27 @@ fun MainScreen() {
                 modifier = Modifier.height(18.dp)
             )
             Statistic()
+            Spacer(
+                modifier = Modifier.height(18.dp)
+            )
+            Categories()
         }
     }
 }
+
+
 
 @Composable
 private fun Top() {
     Row(
         horizontalArrangement = Arrangement.SpaceBetween,
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
     ) {
         Text("Time Tracker")
         IconButton(onClick = {}) { Icon(Icons.Filled.Settings, "Settings") }
     }
 }
+
 
 @Composable
 private fun Statistic() {
@@ -55,3 +64,4 @@ private fun Statistic() {
         RoundedChart()
     }
 }
+

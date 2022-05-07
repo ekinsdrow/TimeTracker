@@ -73,6 +73,18 @@
     <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
     <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
     <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="TimeTracker.common.commonMain" scope="TEST" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="TimeTracker.desktop.commonMain" scope="TEST" />
     <orderEntry type="module" module-name="TimeTracker.desktop.commonTest" scope="TEST" production-on-test="" />

@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 
 
 class MainActivity : AppCompatActivity() {
@@ -19,4 +21,8 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-
+@Preview
+@Composable
+fun AppPreview(){
+    App()
+}

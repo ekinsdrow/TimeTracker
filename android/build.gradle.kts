@@ -14,6 +14,8 @@ repositories {
 dependencies {
     implementation(project(":common"))
     implementation("androidx.activity:activity-compose:1.3.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.1.1")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.1.1")
 }
 
 android {
