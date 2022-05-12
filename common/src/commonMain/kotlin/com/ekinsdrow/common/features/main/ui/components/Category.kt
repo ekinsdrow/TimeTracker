@@ -24,41 +24,34 @@ import androidx.compose.material.icons.rounded.PlayArrow
 @Composable
 fun Categories() {
     LazyColumn(
+        verticalArrangement = Arrangement.spacedBy(20.dp)
     ) {
-        items(100) {
+        items(10) {
             Category()
         }
-
-
     }
 }
-
 
 @Composable
 fun Category() {
     Box(
-        modifier = Modifier.clip(RoundedCornerShape(10.dp)).background(Color(0XFFF5F4F7))
+        modifier = Modifier.clip(RoundedCornerShape(10.dp)).background(Color(0xFFF5F4F7))
             .fillMaxWidth()
+            .padding(12.dp).heightIn(20.dp, 1000.dp)
     ) {
-        Column(
-        ) {
-            Spacer(modifier = Modifier.height(12.dp))
-            CategoryHeader("Music")
-            Spacer(modifier = Modifier.height(13.dp))
-//            SubCategories()
-            Spacer(modifier = Modifier.height(12.dp))
+        Column {
+            CategoryHeader()
+            Spacer(modifier = Modifier.height(18.dp))
+            SubCategories()
         }
     }
 }
 
 @Composable
-private fun CategoryHeader(name: String) {
-    Row(
-        modifier = Modifier.padding(horizontal = 12.dp).fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-        Text(name)
-        Text("30:30:30")
+private fun CategoryHeader() {
+    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+        Text("Music")
+        Text("30:34:59")
     }
 }
 
@@ -67,7 +60,8 @@ private fun CategoryHeader(name: String) {
 private fun SubCategories() {
     LazyVerticalGrid(
         cells = GridCells.Fixed(2),
-        contentPadding = PaddingValues(horizontal = 8.dp)
+        verticalArrangement = Arrangement.spacedBy(5.dp),
+        horizontalArrangement = Arrangement.spacedBy(5.dp)
     ) {
         items(8) {
             SubCategoryBox {

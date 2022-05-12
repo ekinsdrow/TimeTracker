@@ -9,19 +9,25 @@ plugins {
 group = "com.ekinsdrow"
 version = "1.0"
 
+
 kotlin {
     android()
     jvm("desktop") {
         compilations.all {
             kotlinOptions.jvmTarget = "11"
         }
+
     }
     sourceSets {
+        sourceSets["commonMain"].dependencies {
+            implementation("com.google.accompanist:accompanist-flowlayout:0.24.8-beta")
+        }
         val commonMain by getting {
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
+                implementation("com.google.accompanist:accompanist-flowlayout:0.24.8-beta")
             }
         }
         val commonTest by getting {
